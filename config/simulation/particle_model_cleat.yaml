@@ -1,0 +1,6 @@
+stiffness: 2
+damping: 0.04
+fixed_end: True
+num_particles: 17
+l: 0.1 # [m]
+dt: 0.005

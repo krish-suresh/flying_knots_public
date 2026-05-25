@@ -1,0 +1,10 @@
+link_connection_type: ball
+mass_per_unit_len: 0.05
+rope_radius: 0.008
+link_length: 0.02
+num_links: 20
+ball_damping: 0.01
+ball_stiffness: 0.01
+lead: false
+lead_mass: 0.05
+lead_radius: 0.05

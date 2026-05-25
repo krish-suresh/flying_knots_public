@@ -1,0 +1,17 @@
+xarm:
+  xarm_ip: 192.168.1.202
+  command_start_buffer_time: 3 # [sec]
+  command_end_buffer_time: 3 # [sec]
+  base_to_floor: 0.9 #[m]
+vicon:
+  vicon_ip: 128.2.184.3
+  vicon_fps: 200.0
+  global_frame: krishna_xarm_new
+  handle_frame: krishna_overhand_handle
+  tracking_objects: ["krishna_overhand_handle", "krishna_xarm_new"]
+  enable_unlabeled_marker_data: true
+  enable_marker_data: true
+rope:
+  rope_id: 1
+  num_rope_markers: 11
+  rope_length: 1.1

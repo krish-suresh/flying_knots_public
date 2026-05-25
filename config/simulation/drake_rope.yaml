@@ -1,0 +1,73 @@
+dt: 0.0002
+rope:
+  link_connection_type: ball
+  mass_per_unit_len: 0.04
+  rope_radius: 0.0045
+  link_length: 0.02
+  num_links: 55
+  ball_damping: 0.0002
+  ball_stiffness: 0.05
+  ball_stiffness_roll: 0.05
+  lead: true
+  lead_mass: 0.02
+  lead_radius: 0.01
+  self_contact: true
+  collision: true
+  mass_at_link_center: true
+  markers: 11
+  mu_dynamic: 0.02
+# xarm:
+#   p: 10
+#   d: 1
+cameras:
+  # front:
+  #   X_WC: 
+  #     translation: [0.5, 2.5, 0.0]
+  #     wxyz: [0.5, 0.5, -0.5, 0.5]
+  #   width: 1600
+  #   height: 1100
+  #   fps: 200.0
+  #   fov_y: 0.782
+  #   # show_rgb: true
+  #   label: true
+  side:
+    X_WC:
+      translation: [2.5, 0.5, 0.5]
+      wxyz: [0.6427876096865394, 0.0, -0.766044443118978, 0.0]
+    width: 1920
+    height: 1200
+    fps: 200.0
+    fov_y: 0.665
+    # show_rgb: true
+    label: true
+  # corner:
+  #   X_WC:
+  #     translation: [1.5, 1.5, 1.5]
+  #     wxyz: [0.4247082002778669, 0.3398511429799874, -0.8204732385702833, 0.17591989660616117]
+  #   width: 1920
+  #   height: 1200
+  #   fps: 200.0
+  #   fov_y: 0.665
+  #   # show_rgb: true
+  #   label: true
+  # corner_xneg:
+  #   X_WC:
+  #     translation: [-0.5, 1.5, 1.5]
+  #     wxyz: [0.1759198966061612, 0.8204732385702833, -0.33985114297998736, 0.42470820027786693]
+  #   width: 1920
+  #   height: 1200
+  #   fps: 200.0
+  #   fov_y: 0.665
+  #   # show_rgb: true
+  #   label: true
+  # corner_yneg:
+  #   X_WC:
+  #     translation: [1.5, -0.5, 1.5]
+  #     wxyz: [0.42470820027786693, -0.33985114297998736, -0.8204732385702833, -0.1759198966061612]
+  #   width: 1920
+  #   height: 1200
+  #   fps: 200.0
+  #   fov_y: 0.665
+  #   # show_rgb: true
+  #   label: true
+    

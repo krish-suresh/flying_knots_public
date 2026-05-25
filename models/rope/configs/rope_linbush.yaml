@@ -1,0 +1,9 @@
+link_connection_type: linear_bushing_with_ball
+mass_per_unit_len: 0.0390909091
+rope_radius: 0.0045
+link_length: 0.05
+num_links: 20
+torque_stiffness: [0, 0, 0]
+torque_damping: [0.1, 0.1, 0.1]
+force_stiffness: [0, 0, 0]
+force_damping: [0, 0, 0]

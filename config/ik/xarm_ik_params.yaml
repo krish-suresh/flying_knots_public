@@ -1,0 +1,61 @@
+arm_type: xarm7
+joint_pos_bound:
+  lb:
+    [
+      -6.2831853071795862,
+      -1.8,
+      -6.2831853071795862,
+      -0.19198000000000001,
+      -6.2831853071795862,
+      -1.6929700000000001,
+      -6.2831853071795862,
+    ]
+  ub:
+    [
+      6.2831853071795862,
+      1.9,
+      6.2831853071795862,
+      3.927,
+      6.2831853071795862,
+      3.1415926535897931,
+      6.2831853071795862,
+    ]
+joint_vel_bound: [3.14, 3.14, 3.14, 3.14, 3.14, 3.14, 1.5]
+joint_accel_bound: [100, 100, 100, 100, 100, 100, 5]
+# joint_tau_bound: [130, 130, 40, 40, 40, 20, 20]
+
+# base_loc_bound:
+#   lb: [-.inf, -.inf, -.inf, 1.5]
+#   ub: [.inf, .inf, .inf, 1.7]
+
+q0_cost: 1
+# q0: [0, 0, 0, 0, 0, 0, 0]
+q0: [-0.01803746, -0.25586297, -1.27460404,  0.81361706, -0.18458205,
+        1.0107222 ,  0.43714809]
+# q0: [-0.27925268,  0.48869219, -0.61086524,  0.48869219, -1.06465084, -0.08726646,  0.64577182]
+# q0: [-0.10471976,  0.82030475,  0.        ,  0.73303829,  0.        ,
+#         0.15707963, -0.03490659]
+
+# qend_cost: 500
+# qend: [-0.15707963,  0.89011792, -0.17453293,  0.95993109,  0.41887902,
+#         0.15707963, -0.03490659]
+position_tracking_cost: 10
+orientation_tracking_cost: 0.5
+velocity_translation_tracking_cost: 0.5
+velocity_orientation_tracking_cost: 0.0
+num_tracking_match_points: 50
+num_control_points: 8
+num_bound_constraint_points: 50
+
+# vel_cost: 
+#   num_points: 30
+#   cost: 0.00005
+# accel_cost: 
+#   num_points: 30
+#   cost: 0.0001
+jerk_cost: 
+  num_points: 30
+  cost: 5.0e-7
+
+# start_finger_tip_constraint:
+#   min_dist_to_floor: 1.0

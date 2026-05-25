@@ -1,0 +1,9 @@
+stiffness: 1
+damping: 0.1
+lead_mass: 5
+num_particles: 11 
+l: 0.1 # [m]
+dt: 0.005
+# finger_collision: 
+#   radius: 0.01
+#   length: 0.15

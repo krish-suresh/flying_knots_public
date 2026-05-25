@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use ideas or code from this repository, please cite the accompanying paper."
+title: "flying-knots: reference code for Task-Level Iterative Learning Control of dynamic rope manipulation"
+authors:
+  - family-names: Suresh
+    given-names: Krishna
+    affiliation: "Carnegie Mellon University"
+  - family-names: Atkeson
+    given-names: Christopher G.
+    affiliation: "Carnegie Mellon University"
+license: MIT
+# TODO: set repository-code to the published GitHub URL
+url: "https://flying-knots.github.io"
+type: software
+preferred-citation:
+  type: article
+  title: "Learning Dynamic Rope Manipulation Using Task-Level Iterative Learning Control"
+  authors:
+    - family-names: Suresh
+      given-names: Krishna
+      affiliation: "Carnegie Mellon University"
+    - family-names: Atkeson
+      given-names: Christopher G.
+      affiliation: "Carnegie Mellon University"
+  year: 2026
+  url: "https://arxiv.org/abs/2602.21302"
+  identifiers:
+    - type: other
+      value: "arXiv:2602.21302"
+      description: "arXiv preprint"

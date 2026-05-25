@@ -1,0 +1,32 @@
+task: overhand_fast
+model: particle
+model_config: particle_model_overhand.yaml
+env: real
+env_name: xarm_vicon_overhand.yaml
+control_cost: 1.
+critical_point_costs:
+  collision:
+    position_cost: 5.0
+    velocity_cost: 0.00375
+  # passthrough:
+  #   position_cost: 25.0
+  #   velocity_cost: 0.00375
+# Optional:
+joint_pos_limit:
+  lb: [-6.283,-1.8,-6.283,-0.191,-6.283,-1.692,-6.283,]
+  ub: [6.283,1.9,6.283,3.927,6.283,3.141,6.283,]
+joint_vel_limit: [3.14, 3.14, 3.14, 3.14, 3.14, 3.14, 3.14]
+joint_accel_limit: [100, 100, 100, 100, 100, 100, 100]
+joint_tau_limit: [130, 130, 40, 40, 40, 20, 20]
+follow_through_tracking:
+  at_last_critical_point_cost: 0.1
+  at_last_critical_point_vel_cost: 0.05
+  at_last_critical_point_ori_cost: 0.
+  position_tracking_cost: 0.1
+  orientation_tracking_cost: 0.
+  velocity_translation_tracking_cost: 0
+  velocity_orientation_tracking_cost: 0
+fixed_base : False
+zero_initial_du : False
+zero_initial_joint_vel: True
+zero_final_joint_vel : True

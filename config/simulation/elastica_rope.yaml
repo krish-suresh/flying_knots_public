@@ -1,0 +1,10 @@
+rope_radius: 0.0045
+num_links: 60
+total_length: 1.1
+lead_mass: 0.011
+youngs_modulus: 5.e+5
+poisson_ratio: 0.5
+density: 1500
+translational_damping: 5.e-5
+rotational_damping: 5.e-5
+dt: 0.0001

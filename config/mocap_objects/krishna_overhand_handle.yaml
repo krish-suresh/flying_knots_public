@@ -1,0 +1,13 @@
+name: krishna_overhand_handle
+mocap_frame_to_tip_frame:
+  xyz:  [0.00635, 0, 0]
+  wxyz: [1, 0, 0, 0]
+handle_attachment_frame_to_tip_frame: 
+  xyz:  [0.15, 0, -0.00725]
+  wxyz: [1, 0, 0, 0]
+cad_frame_to_handle_attachment_frame: 
+  xyz:  [0, 0, 0]
+  wxyz: [0.70710678, 0, 0, -0.70710678]
+mocap_frame_to_body_frame:
+  xyz:  [0.00635, 0, 0]
+  wxyz: [1, 0, 0, 0]

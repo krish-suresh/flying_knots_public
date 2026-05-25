@@ -1,0 +1,25 @@
+[project]
+name = "flying-knots"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "drake>=1.45.0",
+    "google-genai>=2.0.1",
+    "nanoid>=2.0.0",
+    "notebook>=7.5.3",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.13.0.92",
+    "pandas>=3.0.1",
+    "plotly>=6.5.2",
+    "pyelastica>=0.3.3.post2",
+    "pyserial>=3.5",
+    "pyvicon-datastream>=0.2.4",
+    "requests>=2.32.5",
+    "ruamel-yaml>=0.19.1",
+    "scipy>=1.17.0",
+    "trimesh>=4.11.2",
+    "viser>=1.0.21",
+    "xarm-python-sdk>=1.17.3",
+]

@@ -1,0 +1,4 @@
+name: krishna_xarm_new
+mocap_frame_to_body_frame:
+  xyz:  [0.14, 0.125, -0.027]
+  wxyz: [0, 0, 0, 1]

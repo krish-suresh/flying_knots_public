@@ -1,0 +1,17 @@
+task: 
+  name: overhand_fast
+  # name: overhand_slow
+  # name: overhand_swipe
+  # name: overhand_inverse
+  num_rope_markers: 11
+  rope_length: 1.1 #[m]
+  rope_id: 1
+  critical_points: [collision]
+vicon:
+  vicon_ip: 128.2.184.3
+  vicon_fps: 200.0
+  global_frame: world
+  handle_frame: krishna_overhand_handle
+  tracking_objects: ["krishna_overhand_handle"]
+  enable_unlabeled_marker_data: true
+  enable_marker_data: true

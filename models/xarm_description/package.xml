@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>xarm_description</name>
+  <version>0.0.1</version>
+  <description>
+    xArm7 robot description (URDF/SDF + meshes). Adapted from
+    UFactory's xarm_ros package: https://github.com/xArm-Developer/xarm_ros
+    See NOTICE.md in this directory for attribution and license.
+  </description>
+  <maintainer email="developer@ufactory.cc">UFactory</maintainer>
+  <license>BSD-3-Clause</license>
+  <author>UFactory (xArm-Developer)</author>
+  <url type="repository">https://github.com/xArm-Developer/xarm_ros</url>
+</package>

@@ -1,0 +1,14 @@
+stiffness:
+  start: 6.42
+  end: 0.538
+  interpolate: linear
+damping: 
+  start: 1.303
+  end: 0.476
+mass: 
+  start: 1.064
+  end: 0.29
+  interpolate: linear
+num_particles: 10 
+l: 0.082 # [m]
+dt: 0.005
